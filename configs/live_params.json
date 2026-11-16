@@ -1,5 +1,11 @@
 {
-  "live_trading": true,
+  "live_trading": false,
+  "paper_order_submission_enabled": true,
+  "risk_sizing": {
+    "risk_fraction": 0.0050,
+    "max_shares": 1,
+    "status": "provisional_unapproved"
+  },
   "min_confidence": 0.55,
   "capital_allocation": {
     "per_trade_cap_usd": 1000,
